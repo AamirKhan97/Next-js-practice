@@ -1,0 +1,6 @@
+{
+  "title": "Learn Next js",
+  "content": "In Next.js 13, we announced the new app directory (beta). This new routing and data fetching system can be incrementally adopted alongside your existing pages directory.The app directory provides many benefits, including enhanced layouts, co-location of components, tests, and styles, component-level data fetching, and more. Thanks to your feedback and early testing, we've made several improvements to the reliability of the app directory",
+  "link": "https://en.wikipedia.org/wiki/Next.js",
+  "slug": "learn-next"
+}
