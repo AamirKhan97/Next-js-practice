@@ -2,14 +2,17 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 
 const blogs = () => {
-  const [data, setdata] = useState([]);
+  const [data, setData] = useState([]);
   useEffect(() => {
-   let data = fetch('http://localhost:3000/api/blog').then((a) => {
-     return a.json();}).then((parsed) => {
-      setdata(parsed)
-      console.log(parsed);
-     })
-  },[])
+    fetch("http://localhost:3000/api/blog")
+      .then((a) => {
+        return a.json();
+      })
+      .then((parsed) => {
+        setData(parsed);
+        console.log(parsed);
+      });
+  }, []);
 
   return (
     <>
